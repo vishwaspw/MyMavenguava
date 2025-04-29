@@ -2,7 +2,7 @@ pipeline {
     agent any  // Use any available agent
 
     tools {
-        maven 'MyMvnCICD'  // Ensure this matches the name configured in Jenkins
+        maven 'VishwasMaven'  // Ensure this matches the name configured in Jenkins
     }
     stages {
         stage('Checkout') {
