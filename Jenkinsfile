@@ -7,8 +7,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/vishwaspw/MyMavenguava'
-            }
+                git branch: 'main', url: 'https://github.com/vishwaspw/MyMavenguava.git'
+    }
+}
+
         }
 
         stage('Build') {
